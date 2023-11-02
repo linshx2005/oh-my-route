@@ -26,9 +26,6 @@ jobs:
   
       - name: 53
         run: |
-          python3 1839.py
-          python3 1349.py
-          python3 1519.py
-
-
+          python3 39.py
+          
 
