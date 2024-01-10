@@ -7,9 +7,6 @@ url2="http://meowing-melodious-crab.glitch.me";
 url3="https://glitchyyb.deno.dev";
 
 url4="https://ggyyb.deno.dev";
-
-url6="https://47cds5-3000.csb.app"; 
-
 url5="https://jhs48h-3000.csb.app";
 
 url7="https://yyb.onwebapp.io";   
