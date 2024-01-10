@@ -8,6 +8,10 @@ url3="https://glitchyyb.deno.dev";
 
 url4="https://ggyyb.deno.dev";
 
+url6="https://47cds5-3000.csb.app";
+
+url5="https://jhs48h-3000.csb.app";
+
 
 
 
@@ -85,6 +89,12 @@ print(response3.text)
 
 response4= requests.get(url=url4)
 print(response4.text)
+
+response5= requests.get(url=url5)
+print(response5.text)
+
+response6= requests.get(url=url6)
+print(response6.text)
 
 
 
