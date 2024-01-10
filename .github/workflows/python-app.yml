@@ -1,4 +1,4 @@
-name: JD自动签到
+name: GD
 
 on:
   push:
@@ -26,6 +26,6 @@ jobs:
   
       - name: 53
         run: |
-          python3 39.py
+          python3 gd.py
           
 
