@@ -13,7 +13,6 @@ headers2={
             "Cache-Control": 'no-cache',
             "User-Agent": "Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5 Plus Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2899 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1486 MicroMessenger/7.0.20.1781(0x27001439) Process/toolsmp WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64",
 "origin": "https://prodev.m.jd.com",
-            "accept": "*/*", 
             "connection": "Keep-Alive",
             "Accept-Encoding": "gzip,deflate"
 
