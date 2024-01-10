@@ -102,8 +102,6 @@ print(response4.text)
 response5= requests.get(url=url5)
 print(response5.text)
 
-response6= requests.get(url=url6,headers=headers1) 
-print(response6.text)
 
 response7= requests.get(url=url7)  
 print(response7.text) 
