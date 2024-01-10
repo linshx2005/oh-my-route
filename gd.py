@@ -8,9 +8,17 @@ url3="https://glitchyyb.deno.dev";
 
 url4="https://ggyyb.deno.dev";
 
-url6="https://47cds5-3000.csb.app";
+url6="https://47cds5-3000.csb.app"; 
 
 url5="https://jhs48h-3000.csb.app";
+
+url7="https://yyb.onwebapp.io";   
+
+url8="https://webapp.onwebapp.io";  
+
+
+
+
 
 
 
@@ -22,7 +30,7 @@ headers2={
             "Cache-Control": 'no-cache',
             "User-Agent": "Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5 Plus Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2899 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1486 MicroMessenger/7.0.20.1781(0x27001439) Process/toolsmp WeChat/arm64 NetType/4G Language/zh_CN ABI/arm64",
 "origin": "https://prodev.m.jd.com",
-            "accept": "*/*",
+            "accept": "*/*", 
             "connection": "Keep-Alive",
             "Accept-Encoding": "gzip,deflate"
 
@@ -32,7 +40,7 @@ headers2={
            
 headers3={
            
-"User-Agent": "Mozilla/5.0 (Linux; Android 7.0; SLA-AL00 Build/HUAWEISLA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2898 MMWEBSDK/191102 Mobile Safari/537.36 MMWEBID/4984 MicroMessenger/7.0.9.1560(0x27000933) Process/tools NetType/WIFI Language/zh_CN ABI/arm32",
+"User-Agent": "Mozilla/5.0 (Linux; Android 7.0; SLA-AL00 Build/HUAWEISLA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2898 MMWEBSDK/191102 Mobile Safari/537.36 MMWEBID/4984 MicroMessenger/7.0.9.1560(0x27000933) Process/tools NetType/WIFI Language/zh_CN ABI/arm32",  
  "Host": "api.m.jd.com",
     "content-type": "application/x-www-form-urlencoded",
     "accept": "application/json, text/plain, */*",
@@ -59,8 +67,8 @@ headers1={
 
  "Host": "api.m.jd.com",
     "content-type": "application/x-www-form-urlencoded",
-    "accept": "application/json, text/plain, */*",
-            "User-Agent": "Mozilla/5.0 (Linux; Android 10; POT-AL00a Build/HUAWEIPOT-AL00a; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3234 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/8008 MicroMessenger/8.0.1840(0x28000036) Process/toolsmp WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64",
+    "accept": "application/json, text/plain, */*", 
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; POT-AL00a Build/HUAWEIPOT-AL00a; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/3234 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/8008 MicroMessenger/8.0.1840(0x28000036) Process/toolsmp WeChat/arm32 Weixin NetType/WIFI Language/zh_CN ABI/arm64", 
 
     "origin": "https://prodev.m.jd.com",
     "x-requested-with": "com.tencent.mm",
@@ -75,7 +83,7 @@ headers1={
 "x-rp-client": "h5_1.0.0",
 
 "x-referer-page": "https://prodev.m.jd.com",
-           "cookie":"b_webp=1;b_avif=1;appCode=msd95910c4;jdpin=gibaoxi;open_id=oTGnpnPA5IQ1FUGWMjkM-um5Ze2E;pin=gibaoxi;wx_nickname=jd_user;commonAddress=6065843065;regionAddress=13%2C1042%2C1048%2C54535;shshshfpx=677a6cc1-ce32-5ba7-a69e-b60e347828eb-1675164635;visitkey=11081520779461678240283221;wxapp_openid=oA1P50GPWXs3CuodUL4M3vaglu-k;wq_addr=11027481485%7C13_1042_1048_54535%7C%u5C71%u4E1C_%u70DF%u53F0%u5E02_%u84EC%u83B1%u533A_%u5357%u738B%u8857%u9053%7C%u5C71%u4E1C%u70DF%u53F0%u5E02%u84EC%u83B1%u533A%u5357%u738B%u8857%u9053%u534A%u5C9B%u84DD%u5EAD%28%u5357%u738B%u6751%u534A%u5C9B%u5170%u4EAD%29%u5357%u738B%u6751%7C120.807972%2C37.789425;shshshfpa=677a6cc1-ce32-5ba7-a69e-b60e347828eb-1675164635;share_cpin=;share_open_id=;share_gpin=;channel=;source_module=;erp=;wxapp_uuid=16782402830862067149;webp=1;shareChannel=;buy_uin=5313646889;mcossmd=2776247380e2a456880c18047c86a7ed;pinId=BjKFPOI-81I;wq_unionid=oCwKwuCcHLNS0kRmrNyNZIq16s0Q;e_wq_addr=CJOmCtc0ENO0ENUvD0CnC18nCNGyXzOmDNrpDJG1CzUvD0CvdJVNDzOvdJHPCUDpTXU3COHQTXU1C0YmTXU1HJKyXyV1ENHPGyV1ENDMCIV1DJCzGV8vdJUzDJcvdJczEOSvdJq4DJcvdJumDJCvD0CvdJVNDzOvdJHPCUCvdJcmHOYvdJUzHtKvdJVPCNSvdJq0HUCvdJqzGtOvdJUzC0OvdJUzDJcvdJczEOSvdJq4DJcvdJumDJCvdJUzDOOvdJVNEUSvdJq0HOGvdJVPGUGvCtqvdJUzDJcvdJczEOSvdJY3DJOvdJUzDOOvdJVNEUSvdJUnDzKvdJHPGUGvCtuvdJUzDJcvdJczEOSvdJY3DJOvD0CnCtKkENK3EJcyTJTNCzckDzq5DNS1;b_dw=400;b_dh=745;b_dpr=2.700000047683716;shshshfpb=ldm_5s3eJuwVEQe9KPKSA3w;__jdu=8b1d80804fdcc7b21d769e0730aa46ca;qid_uid=d225db8c-8efd-466a-a510-b2ae8340a285;qid_fs=1697701266108;qid_ls=1697701266108;qid_ts=1697701266160;qid_vis=1;pt_pin=gibaoxi;pwdt_id=gibaoxi;TrackerID=XtDAwhLw8734c7Xse1jXp_BDMIzdf1Wp3uzpyfOH8wofo-hrwgc4YbrZN1tBOvpWFCHnLMzrWXzwjWJeyPcwdeMFObRm9oI-W_bPkl-osQy1gkgG3qwRandM2ZBYjwFi;pt_key=AAJlMN3QADD9ZQ2-_cV6XZcQn0gMOduewHdp-AQuM66PsAzOLMMzv1EqQQZKZzDXXGWNlnYT0FY;pt_token=ag974jfj;retina=1;__wga=1697791347465.1697791001475.1697700891380.1696071661230.70.3;PPRD_P=EA.17078.79.1-CT.137081.10.1-UUID.83982c14ea7541fbc87f6b6d546411e7-LOGID.1697791347480.1244462744;pinStatus=0;wxapp_version=8.22.180;buildtime=20231018;__jdc=122270672;__jdwxapp=16782402830862067149.JA2019_5112348.wx91d27dbf599dff74.;3AB9D23F7A4B3CSS=jdd03C63JYUTJGNWNJVI4IFVJWN35SQCLGMTZO3GOIX2DOCTGVYWM7777Z5Y4FZK4QXZR4BD6JEWTRSQT465EXLO25DLYUYAAAAMLJRAKP4IAAAAADEZT6PGVWHLEEQX;3AB9D23F7A4B3C9B=C63JYUTJGNWNJVI4IFVJWN35SQCLGMTZO3GOIX2DOCTGVYWM7777Z5Y4FZK4QXZR4BD6JEWTRSQT465EXLO25DLYUY;equipmentId=C63JYUTJGNWNJVI4IFVJWN35SQCLGMTZO3GOIX2DOCTGVYWM7777Z5Y4FZK4QXZR4BD6JEWTRSQT465EXLO25DLYUY;fingerprint=b1a137d47cb28df9c8146ca9daf53166;deviceVersion=8.0.1840%280x28000036%29;deviceOS=android;deviceOSVersion=10;deviceName=WeiXin;rurl=https%3A%2F%2Fgt.m.jd.com%2Ffootprint%2Findex%3Fsource%3Dmini%26ptag%3D7155.1.10%26cookie%3D%257B%2522wxapp_type%2522%253A1%257D%23%26wxappSeries%3D%257B%2522uuid%2522%253A%252216782402830862067149%2522%252C%2522std%2522%253A%2522JA2019_5112348%2522%252C%2522seq%2522%253A45%252C%2522vts%2522%253A44%252C%2522appid%2522%253A%2522wx91d27dbf599dff74%2522%257D;TrackID=BppMoQvL1vCYkLIDkfcFV5QUS4MOVAiDP98LgYoUJRZVGQDhK5STpImUpOi0UZ6n7RjoRg1eLc2okSIyYJ0c3UHipJWM3u2wVUQTgzK1ELJ0178BXhiDwtZPhpWqZEHSx_PrUz0Rkd8fvPx4wrf7ZTyMBxD0nMxdogUG5oM6XS0;nickname_base64=;openid2=2DD50BB572E0FEA29A977A6FF681B040838C2EC1A470009E37EE5579BAE16A6892015F7BC6570094F1B1B3E0A8F33C2C;picture_url=;pinsign=7a99a6955da168fc09196b50abfa241d;sex=0;wq_skey=za6235B14C9645BEA46619C09A75FFDFE8669EBCA7BFB4156314C56BF5EB5C9DC7EB337521588CD53C1363A3CCDAA06EFA438BF851828C733BEC7BE5DF0FEC92BA67490B9CDD05F108D21AA0E231473F90;wq_uin=5313646889;country=;sfstoken=tk01wc4d11c99a8sMngxeDIrMisztzNfqU0PN67j68eb6K8NrcM9YOB1POg2LxFbDmQ4fNURNWlHwVdWfWuW6lGtKnjV;cid=5;wxapp_type=1;__jd_ref_cls=MFootPrintFloat_ListPro;__jda=122270672.52aa19b289adf22d349d72bdc3ff4a68.1697700891.1697700891.1697889424.2;mba_muid=83982c14ea7541fbc87f6b6d546411e7;wq_auth_token=328EF55559FF79DAD216C036FAD722C32CF6D88D08AC2DFF796F66AF5B0AD64C;__jdb=122270672.3.52aa19b289adf22d349d72bdc3ff4a68|2.1697889424;__jdv=122270672%7Cweixin%7Ct_1000072662_17005_001%7Cweixin%7Cdzh_h5_Menu_Fanswelfare_101%7C1697890415515;"
+           "cookie":"b_webp=1;b_avif=1;appCode=msd95910c4;jdpin=gibaoxi;open_id=oTGnpnPA5IQ1FUGWMjkM-um5Ze2E;pin=gibaoxi;wx_nickname=jd_user;commonAddress=6065843065;regionAddress=13%2C1042%2C1048%2C54535;shshshfpx=677a6cc1-ce32-5ba7-a69e-b60e347828eb-1675164635;visitkey=11081520779461678240283221;wxapp_openid=oA1P50GPWXs3CuodUL4M3vaglu-k;wq_addr=11027481485%7C13_1042_1048_54535%7C%u5C71%u4E1C_%u70DF%u53F0%u5E02_%u84EC%u83B1%u533A_%u5357%u738B%u8857%u9053%7C%u5C71%u4E1C%u70DF%u53F0%u5E02%u84EC%u83B1%u533A%u5357%u738B%u8857%u9053%u534A%u5C9B%u84DD%u5EAD%28%u5357%u738B%u6751%u534A%u5C9B%u5170%u4EAD%29%u5357%u738B%u6751%7C120.807972%2C37.789425;shshshfpa=677a6cc1-ce32-5ba7-a69e-b60e347828eb-1675164635;share_cpin=;share_open_id=;share_gpin=;channel=;source_module=;erp=;wxapp_uuid=16782402830862067149;webp=1;shareChannel=;buy_uin=5313646889;mcossmd=2776247380e2a456880c18047c86a7ed;pinId=BjKFPOI-81I;wq_unionid=oCwKwuCcHLNS0kRmrNyNZIq16s0Q;e_wq_addr=CJOmCtc0ENO0ENUvD0CnC18nCNGyXzOmDNrpDJG1CzUvD0CvdJVNDzOvdJHPCUDpTXU3COHQTXU1C0YmTXU1HJKyXyV1ENHPGyV1ENDMCIV1DJCzGV8vdJUzDJcvdJczEOSvdJq4DJcvdJumDJCvD0CvdJVNDzOvdJHPCUCvdJcmHOYvdJUzHtKvdJVPCNSvdJq0HUCvdJqzGtOvdJUzC0OvdJUzDJcvdJczEOSvdJq4DJcvdJumDJCvdJUzDOOvdJVNEUSvdJq0HOGvdJVPGUGvCtqvdJUzDJcvdJczEOSvdJY3DJOvdJUzDOOvdJVNEUSvdJUnDzKvdJHPGUGvCtuvdJUzDJcvdJczEOSvdJY3DJOvD0CnCtKkENK3EJcyTJTNCzckDzq5DNS1;b_dw=400;b_dh=745;b_dpr=2.700000047683716;shshshfpb=ldm_5s3eJuwVEQe9KPKSA3w;__jdu=8b1d80804fdcc7b21d769e0730aa46ca;qid_uid=d225db8c-8efd-466a-a510-b2ae8340a285;qid_fs=1697701266108;qid_ls=1697701266108;qid_ts=1697701266160;qid_vis=1;pt_pin=gibaoxi;pwdt_id=gibaoxi;TrackerID=XtDAwhLw8734c7Xse1jXp_BDMIzdf1Wp3uzpyfOH8wofo-hrwgc4YbrZN1tBOvpWFCHnLMzrWXzwjWJeyPcwdeMFObRm9oI-W_bPkl-osQy1gkgG3qwRandM2ZBYjwFi;pt_key=AAJlMN3QADD9ZQ2-_cV6XZcQn0gMOduewHdp-AQuM66PsAzOLMMzv1EqQQZKZzDXXGWNlnYT0FY;pt_token=ag974jfj;retina=1;__wga=1697791347465.1697791001475.1697700891380.1696071661230.70.3;PPRD_P=EA.17078.79.1-CT.137081.10.1-UUID.83982c14ea7541fbc87f6b6d546411e7-LOGID.1697791347480.1244462744;pinStatus=0;wxapp_version=8.22.180;buildtime=20231018;__jdc=122270672;__jdwxapp=16782402830862067149.JA2019_5112348.wx91d27dbf599dff74.;3AB9D23F7A4B3CSS=jdd03C63JYUTJGNWNJVI4IFVJWN35SQCLGMTZO3GOIX2DOCTGVYWM7777Z5Y4FZK4QXZR4BD6JEWTRSQT465EXLO25DLYUYAAAAMLJRAKP4IAAAAADEZT6PGVWHLEEQX;3AB9D23F7A4B3C9B=C63JYUTJGNWNJVI4IFVJWN35SQCLGMTZO3GOIX2DOCTGVYWM7777Z5Y4FZK4QXZR4BD6JEWTRSQT465EXLO25DLYUY;equipmentId=C63JYUTJGNWNJVI4IFVJWN35SQCLGMTZO3GOIX2DOCTGVYWM7777Z5Y4FZK4QXZR4BD6JEWTRSQT465EXLO25DLYUY;fingerprint=b1a137d47cb28df9c8146ca9daf53166;deviceVersion=8.0.1840%280x28000036%29;deviceOS=android;deviceOSVersion=10;deviceName=WeiXin;rurl=https%3A%2F%2Fgt.m.jd.com%2Ffootprint%2Findex%3Fsource%3Dmini%26ptag%3D7155.1.10%26cookie%3D%257B%2522wxapp_type%2522%253A1%257D%23%26wxappSeries%3D%257B%2522uuid%2522%253A%252216782402830862067149%2522%252C%2522std%2522%253A%2522JA2019_5112348%2522%252C%2522seq%2522%253A45%252C%2522vts%2522%253A44%252C%2522appid%2522%253A%2522wx91d27dbf599dff74%2522%257D;TrackID=BppMoQvL1vCYkLIDkfcFV5QUS4MOVAiDP98LgYoUJRZVGQDhK5STpImUpOi0UZ6n7RjoRg1eLc2okSIyYJ0c3UHipJWM3u2wVUQTgzK1ELJ0178BXhiDwtZPhpWqZEHSx_PrUz0Rkd8fvPx4wrf7ZTyMBxD0nMxdogUG5oM6XS0;nickname_base64=;openid2=2DD50BB572E0FEA29A977A6FF681B040838C2EC1A470009E37EE5579BAE16A6892015F7BC6570094F1B1B3E0A8F33C2C;picture_url=;pinsign=7a99a6955da168fc09196b50abfa241d;sex=0;wq_skey=za6235B14C9645BEA46619C09A75FFDFE8669EBCA7BFB4156314C56BF5EB5C9DC7EB337521588CD53C1363A3CCDAA06EFA438BF851828C733BEC7BE5DF0FEC92BA67490B9CDD05F108D21AA0E231473F90;wq_uin=5313646889;country=;sfstoken=tk01wc4d11c99a8sMngxeDIrMisztzNfqU0PN67j68eb6K8NrcM9YOB1POg2LxFbDmQ4fNURNWlHwVdWfWuW6lGtKnjV;cid=5;wxapp_type=1;__jd_ref_cls=MFootPrintFloat_ListPro;__jda=122270672.52aa19b289adf22d349d72bdc3ff4a68.1697700891.1697700891.1697889424.2;mba_muid=83982c14ea7541fbc87f6b6d546411e7;wq_auth_token=328EF55559FF79DAD216C036FAD722C32CF6D88D08AC2DFF796F66AF5B0AD64C;__jdb=122270672.3.52aa19b289adf22d349d72bdc3ff4a68|2.1697889424;__jdv=122270672%7Cweixin%7Ct_1000072662_17005_001%7Cweixin%7Cdzh_h5_Menu_Fanswelfare_101%7C1697890415515;" 
            
     }
 response1= requests.get(url=url1)
@@ -85,7 +93,7 @@ response2= requests.get(url=url2)
 print(response2.text)
 
 response3= requests.get(url=url3)
-print(response3.text)
+print(response3.text) 
 
 response4= requests.get(url=url4)
 print(response4.text)
@@ -93,17 +101,24 @@ print(response4.text)
 response5= requests.get(url=url5)
 print(response5.text)
 
-response6= requests.get(url=url6)
+response6= requests.get(url=url6) 
 print(response6.text)
+
+response7= requests.get(url=url7)  
+print(response7.text) 
+
+response8= requests.get(url=url8)   
+print(response8.text)  
+
 
 
 
 
 def notice(content):
-    token ="c204e4622c9f4e3e8bf06591c7f6e89d"
+    token ="c204e4622c9f4e3e8bf06591c7f6e89d"  
     title = "glitch"
     url = f"http://www.pushplus.plus/send?token={token}&title={title}&content={content}&template=html"
-    response9=requests.request("GET", url)
+    response9=requests.request("GET", url) 
     print(response9.text)
-notice(response1.text+response2.text+response3.text+response4.text)
+notice(response1.text+response2.text+response3.text+response4.text+response5.text+response6.text+response7.text+response8.text)  
 
