@@ -7,10 +7,7 @@ url2="http://meowing-melodious-crab.glitch.me";
 url3="https://glitchyyb.deno.dev";
 
 url4="https://ggyyb.deno.dev";
-url6="https://47cds5-3000.csb.app"; 
-url5="https://jhs48h-3000.csb.app";
-url7="https://yyb.onwebapp.io";   
-url8="https://webapp.onwebapp.io";  
+
 headers2={
             "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
             "Cache-Control": 'no-cache',
@@ -84,14 +81,7 @@ response3= requests.get(url=url3)
 print(response3.text) 
 response4= requests.get(url=url4)
 print(response4.text)
-response5= requests.get(url=url5)
-print(response5.text)
-response6= requests.get(url=url6) 
-print(response6.text)
-response7= requests.get(url=url7)  
-print(response7.text) 
-response8= requests.get(url=url8)   
-print(response8.text)  
+
 
 
 
