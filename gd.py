@@ -1,6 +1,6 @@
 import requests#13
 
-url1="https://glitchyyb.deno.dev";    //url="";
+url1="https://glitchyyb.deno.dev";    #url="";
 
 url2="https://ggyyb.deno.dev";
 
@@ -100,8 +100,8 @@ response2= requests.post(url=url2)
 print(response2.text)  
 
 
-//response= requests.post(url=url)
-//print(response.text)
+'''response= requests.post(url=url)
+print(response.text)'''
 
 
 def notice(content):
@@ -110,5 +110,5 @@ def notice(content):
     url = f"http://www.pushplus.plus/send?token={token}&title={title}&content={content}&template=html"
     response9=requests.request("GET", url)
     print(response9.text)
-notice(response1.text+response2.text)  //+response.text
+notice(response1.text+response2.text)  #+response.text
 
