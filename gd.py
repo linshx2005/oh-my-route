@@ -4,7 +4,9 @@ url1="https://glitchyyb.deno.dev";    #url="";
 
 url2="https://ggyyb.deno.dev";
 
-url3="https://api.m.jd.com/client.action?functionId=newBabelAwardCollection&client=wh5&body=%7B%22activityId%22%3A%222QPgcbnrRzSas2AFvNxFrcXb73zi%22%2C%22scene%22%3A%221%22%2C%22args%22%3A%22key%3D9C11195ED5C4333A7D2A50E522EBDFE311F3983B37221BC3AB01E4E96185FF2905FEE555184D33C9F92A80B91C778636_bingo%2CroleId%3DC641C36C91AE5FF1DB7131AC694DF49BD17DFE407DD2C42AE01EB268E8FF5D7E63D623567C1EC8E201A49DAB40CA2F5B5EE66BF015444F963A903A665194B1D6207D8A3D083AF4370E8DD6E49DA673ECE13B8A420D5AD39A46336CD2DC88F54B790A692C24B3D5C068D355369E790B634E74B6CDF345A2A4475BB67D39D479DF330489D15442AABD0A4A3BCD586E997F1799FA2D888E808826F1265070AA8A3D_bingo%2CstrengthenKey%3D19F512DCD8EE34ABE9C4FB4A92C2F42AC07DDFE659202C5BAED394902C6C1536_bingo%22%2C%22log%22%3A%221655371858783~1UFgn2iK3IQd41d8cd98f00b204e9800998ecf8427e~1%2C1~1C38B3A7745BD6BF9328510FDAA38992867D3309~17e06m4~C~TRdDVRQPbWgbGkJbWxcNY2sZFFJFVhQPAg0PARoXRUYVAhQEAAACCwEEDgAPDwECBwcODxQZFEJSXBQPFEFDTEJBUEBRGhoXQVBWGgwXUFNDWUNUQ1QVFBRFUlsVAm0EBxkGCRoGGgAbCRoAaxkVUlwXDAYbGlVGFA8VCQAGUFYGAVQDAVQEAQMEVAEAXlcAAwwEAQBRBAcEXAYXGhdZSBQPFHleVkNNFlRWSlVdAAEVFBRBFA8VCQAAAwYACQ4ADgIPCxQZFF9cGgwXVxcbGlBFVBcNGhQZFFtBGgwXcVpYX1pQFnxZWxgXGhdZWUAXDBdUGhoXRVZFGgxuDgMAFAIFBmgbGkRaFA9sGlcXGhdWGhoXVxcbGlcXGhdWGhoXVxcbGlcXaxkVUVlUFA8VXlBTUFNRTEIXGhdWUhQPFEAVFBRWXxcNGkEGGAAZChQZFFZRZ0AXDBcHCBQZFFdTGgwXRFRZXFlYC1pbUQR0d0V%2FGhoXW18VAm0FGgUbCGsZFFdbV1EXDBdWGhoXW0ZQGgwXVxdK~0j01xck%22%2C%22random%22%3A%22oli2AApH%22%7D";
+url3="https://jhs48h-3000.csb.app'';
+
+url4="https://47cds5-3000.csb.app";
 
 
 
@@ -97,7 +99,14 @@ response1= requests.get(url=url1)
 print(response1.text)
 
 response2= requests.get(url=url2)
-print(response2.text)  
+print(response2.text)
+
+response3= requests.get(url=url3)
+print(response3.text)
+
+
+response4= requests.get(url=url4)
+print(response.text4)  
 
 
 '''response= requests.get(url=url)
@@ -110,5 +119,5 @@ def notice(content):
     url = f"http://www.pushplus.plus/send?token={token}&title={title}&content={content}&template=html"
     response9=requests.request("GET", url)
     print(response9.text)
-notice(response1.text+response2.text)  #+response.text
+notice(response1.text+response2.text+response3.text+response4.text)  #+response.text
 
