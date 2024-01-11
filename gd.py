@@ -111,16 +111,19 @@ response3= requests.get(url=url3)
 print(response3.text)
 
 
-response4= requests.get(url=url4)
-print(response4.text)
-
-
 response6= requests.get(url=url6)
 print(response6.text)
 
 
 response7= requests.get(url=url7)
 print(response7.text)
+
+
+response4= requests.get(url=url4)
+print(response4.text)
+
+response3= requests.get(url=url3)
+print(response3.text)
 
 
 '''response= requests.get(url=url)
