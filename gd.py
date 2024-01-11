@@ -116,11 +116,11 @@ print(response4.text)
 
 
 response6= requests.get(url=url6)
-print(response.text6)
+print(response6.text)
 
 
 response7= requests.get(url=url7)
-print(response.text7)
+print(response7.text)
 
 
 '''response= requests.get(url=url)
@@ -134,3 +134,10 @@ def notice(content):
     response9=requests.request("GET", url)
     print(response9.text)
 notice(response1.text+response2.text+response3.text+response4.text+response6.text+response7.text)  #+response.text
+
+
+
+
+
+
+
