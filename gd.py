@@ -19,7 +19,7 @@ url10="https://ad65a318-9394-4984-9149-ab12145436fa-00-2mgnuhqlp9rp6.janeway.rep
 url8="https://3624tj-3001.csb.app/";
 
 url9="https://possible-rich-aquarius.glitch.me/";
-urla="https://yyb.onwebapp.io/";
+url11="https://yyb.onwebapp.io/";
 
 
 
@@ -143,8 +143,8 @@ print(response3.text)
 response9= requests.get(url=url9)
 print(response9.text)
 
-responsea= requests.get(url=urla)
-print(responsea.text)
+response11= requests.get(url=url11)
+print(response11.text)
 '''response= requests.get(url=url)
 print(response.text)'''
 
