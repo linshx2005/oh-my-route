@@ -12,6 +12,8 @@ url6="https://sage-accessible-hub.glitch.me/";
 
 url7="https://meowing-melodious-crab.glitch.me/";
 
+#url5="https://renderyyb.onrender.com/";
+
 
 
 
@@ -107,6 +109,9 @@ print(response1.text)
 response2= requests.get(url=url2)
 print(response2.text)
 
+response5= requests.get(url=url5)
+print(response5.text)
+
 response3= requests.get(url=url3)
 print(response3.text)
 
@@ -136,7 +141,7 @@ def notice(content):
     url = f"http://www.pushplus.plus/send?token={token}&title={title}&content={content}&template=html"
     response9=requests.request("GET", url)
     print(response9.text)
-notice(response1.text+response2.text+response3.text+response4.text+response6.text+response7.text)  #+response.text
+notice(response1.text+response2.text+response3.text+response4.text+response6.text+response7.text+response5.text)  #+response.text
 
 
 
