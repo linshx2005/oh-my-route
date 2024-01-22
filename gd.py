@@ -14,6 +14,8 @@ url7="https://meowing-melodious-crab.glitch.me/";
 
 url5="https://renderyyb.onrender.com/";
 
+url10="https://ad65a318-9394-4984-9149-ab12145436fa-00-2mgnuhqlp9rp6.janeway.replit.dev/";
+
 url8="https://3624tj-3001.csb.app/";
 
 url9="https://possible-rich-aquarius.glitch.me/";
@@ -130,6 +132,8 @@ print(response6.text)
 response7= requests.get(url=url7)
 print(response7.text)
 
+response10= requests.get(url=url10)
+print(response10.text)
 
 response4= requests.get(url=url4)
 print(response4.text)
