@@ -20,7 +20,7 @@ url8="https://3624tj-3001.csb.app/";
 
 url9="https://possible-rich-aquarius.glitch.me/";
 
-
+url1="https://670e6400-af12-446c-954d-5086f32ffae7-00-2qkt1mg7eoe7n.janeway.replit.dev/";
 
 
 headers4={
@@ -118,6 +118,9 @@ print(response2.text)
 response5= requests.get(url=url5)
 print(response5.text)
 
+response11= requests.get(url=url11)
+print(response11.text)
+
 response8= requests.get(url=url8)
 print(response8.text)
 
@@ -154,7 +157,7 @@ def notice(content):
     url = f"http://www.pushplus.plus/send?token={token}&title={title}&content={content}&template=html"
     response9=requests.request("GET", url)
     print(response9.text)
-notice(response1.text+response2.text+response3.text+response4.text+response6.text+response7.text+response5.text)  #+response.text
+notice(response1.text+response3.text+response4.text+response6.text+response7.text+response5.text)  #+response.text
 
 
 
