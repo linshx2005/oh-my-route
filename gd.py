@@ -22,6 +22,7 @@ url9="https://possible-rich-aquarius.glitch.me/";
 
 url11="https://670e6400-af12-446c-954d-5086f32ffae7-00-2qkt1mg7eoe7n.janeway.replit.dev/";
 
+url12="https://tame-bull-smock.cyclic.app/";
 
 headers4={
            "Host": "glitchyyb.deno.dev",
@@ -112,6 +113,9 @@ headers1={
 response1= requests.get(url=url1)
 print(response1.text)
 
+response12= requests.get(url=url12)
+print(response12.text)
+
 response2= requests.get(url=url2)
 print(response2.text)
 
@@ -153,11 +157,11 @@ print(response.text)'''
 
 def notice(content):
     token ="c204e4622c9f4e3e8bf06591c7f6e89d"
-    title = "action"
+    title = "ohmyroute"
     url = f"http://www.pushplus.plus/send?token={token}&title={title}&content={content}&template=html"
     response9=requests.request("GET", url)
     print(response9.text)
-notice(response1.text+response3.text+response4.text+response6.text+response7.text+response5.text)  #+response.text
+notice(response1.text+response2.text+response4.text+response6.text+response7.text+response5.text)  #+response.text
 
 
 
