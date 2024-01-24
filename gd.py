@@ -1,18 +1,19 @@
 import requests#13
 
-url1="https://glitchyyb.deno.dev";    #url="";
+url1="https://yyb.onrender.com/";    #url="";
 
-url2="https://ggyyb.deno.dev";
+url2="https://yybus.onrender.com/";
 
 url3="https://jhs48h-3000.csb.app/";
 
 url4="https://52dxl9-3000.csb.app";
 
-url6="https://sage-accessible-hub.glitch.me/";
+url6="https://yyb2.onrender.com/";
 
 url7="https://meowing-melodious-crab.glitch.me/";
 
-url5="https://one1lyyb.onrender.com/";
+url5="https://yyb1.onrender.com/";
+
 
 url10="https://ad65a318-9394-4984-9149-ab12145436fa-00-2mgnuhqlp9rp6.janeway.replit.dev/";
 
