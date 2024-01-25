@@ -23,8 +23,6 @@ url9="https://yyb2.glitch.me/";
 
 url11="https://670e6400-af12-446c-954d-5086f32ffae7-00-2qkt1mg7eoe7n.janeway.replit.dev/";
 
-url12="https://tame-bull-smock.cyclic.app/";
-
 headers4={
            "Host": "glitchyyb.deno.dev",
 
@@ -113,9 +111,6 @@ headers1={
 
 response1= requests.get(url=url1)
 print(response1.text)
-
-response12= requests.get(url=url12)
-print(response12.text)
 
 response2= requests.get(url=url2)
 print(response2.text)
