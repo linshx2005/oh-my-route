@@ -10,7 +10,7 @@ url4="https://52dxl9-3000.csb.app";
 
 url6="https://yyb2.onrender.com/";
 
-url7="https://meowing-melodious-crab.glitch.me/";
+url7="https://yyby.glitch.me";
 
 url5="https://yyb1.onrender.com/";
 
