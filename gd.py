@@ -47,7 +47,7 @@ def push_message(title, content):
 # 使用示例  
 if __name__ == "__main__":  
     ACCESS_TOKEN = "SCT227782TMxJlx5YE887DkDfBcQ93prou"  
-    TITLE = "vc6776513150"  
-    CONTENT = "vc6776513150续期通知"
+    TITLE = "vc6776513150vc6753671485"  
+    CONTENT = "vc6776513150vc6753671485"
     push_message(TITLE, CONTENT)
     send_server_chan_notification(ACCESS_TOKEN, TITLE, CONTENT)
