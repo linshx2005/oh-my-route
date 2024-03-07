@@ -5,11 +5,15 @@ dt = datetime.now()
 dt = dt.strftime('%j')
 dt = int(dt)
 print(dt)
-l = [50,60]
+l = [67]
 l.append(dt)
 print(l)
-x = l[-1] - l[-2]
-print(x)
+with open('1.txt','wb') as x
+    x.write(l)
+with open('1.txt','wb') as y
+    con = y.read()
+    print(con)
+x = 6
 def send_server_chan_notification(access_token, title, content):
     url = "https://sctapi.ftqq.com/" + access_token + ".send"  
     data = {  
