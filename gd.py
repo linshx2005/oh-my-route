@@ -46,8 +46,8 @@ def push_message(title, content):
         print("消息推送出错:", e)    
 # 使用示例  
 if __name__ == "__main__":  
-    ACCESS_TOKEN = "SCT227782TMxJlx5YE887DkDfBcQ93prou"  
+    ACCESS_TOKEN = "SCT242760TeNxiWHrdLtFYqmJkeQnqE2Xq"  
     TITLE = "vc6776513150vc6753671485"  
-    CONTENT = "vc6776513150vc6753671485"
+    CONTENT = "vc6776513150\nvc6753671485"
     push_message(TITLE, CONTENT)
     send_server_chan_notification(ACCESS_TOKEN, TITLE, CONTENT)
