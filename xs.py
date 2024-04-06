@@ -8,67 +8,38 @@ now = now.strftime('%Y-%m-%d')
 qbt, tr, trx, jpx, bx =[], [], [], [], []
 url, url1, url2, url4, url3 = 'https://qbtr.me/tongren/', 'https://tongrenquan.org/tongren/', 'https://trxs.cc/tongren/', 'https://jpxs123.cc/', 'https://bixiange.top/'
 
-def qbtr(url):
-    res = requests.get(url)
-    res.encoding = 'gb2312'
-    html = res.text
-    soup = BeautifulSoup(html, 'html.parser')
-    qbtr3 = soup.find_all('div', class_='bk')
-    for re in qbtr3:
-        r = re.find('label', class_='date')
-        date = r.text
-        if date == now:
-            p = re.find('h3')
-            qbt.append(p.text)
-def trq(url1):
-    res = requests.get(url1)
-    res.encoding = 'gb2312'
-    html = res.text
-    soup = BeautifulSoup(html, 'html.parser')
-    qbtr3 = soup.find_all('div', class_='bk')
-    for re in qbtr3:
-        r = re.find('label', class_='date')
-        date = r.text
-        if date == now:
-            p = re.find('h3')
-            tr.append(p.text)
-def trxs(url2):
-    res = requests.get(url2)
-    res.encoding = 'gb2312'
-    html = res.text
-    soup = BeautifulSoup(html, 'html.parser')
-    qbtr3 = soup.find_all('div', class_='bk')
-    for re in qbtr3:
-        r = re.find('label', class_='date')
-        date = r.text
-        if date == now:
-            p = re.find('h3')
-            trx.append(p.text)
-def jpxs(url4):
-    res = requests.get(url4)
-    res.encoding = 'gb2312'
-    html = res.text
-    soup = BeautifulSoup(html, 'html.parser')
-    qbtr3 = soup.find_all('div', class_='infos')
-    for re in qbtr3:
-        r = re.find('label', class_='date')
-        date = r.text
-        if date == now:
-            p = re.find('h3')
-            jpx.append(p.text)
-def bxg(url3):
-    res = requests.get(url3)
-    res.encoding = 'gb2312'
-    html = res.text
-    soup = BeautifulSoup(html, 'html.parser')
-    qbtr3 = soup.find_all('div', class_='infos')
-    for re in qbtr3:
-        r = re.find('label', class_='date')
-        date = r.text
-        if date == now:
-            p = re.find('h3')
-            bx.append(p.text)
-
+def qbtr(urls_to_lists):  
+    now = datetime.now().date()  
+    for url, lb in urls_to_lists.items():  
+        res = requests.get(url)  
+        res.encoding = 'gb2312'  
+        html = res.text  
+        soup = BeautifulSoup(html, 'html.parser')  
+        qbtr3 = soup.find_all('div', class_='infos')  
+        for re in qbtr3:  
+            r = re.find('label', class_='date')  
+            if r is not None:  
+                date = r.text  
+                if date == str(now):  
+                    p = re.find('h3')  
+                    if p is not None:  
+                        lb.append(p.text)  
+   
+  
+# 创建 URL 到列表的映射  
+urls_to_lists = {  
+    url: qbt,  
+    url1: tr,  
+    url2: trx, 
+    url4: jpx,
+    url3: bx # 假设 url3 也对应 trx 列表  
+}  
+  
+# 调用函数  
+qbtr(urls_to_lists)  
+  
+# 此时，tr 列表应该包含 url1 对应的数据（如果日期匹配的话）  
+# trx 列表应该包含 url2 和 url3 对应的数据（如果日期匹配的话）
 
 
 def server(title, content):
@@ -117,14 +88,8 @@ def pushplus(title, content):
     except requests.exceptions.RequestException as e:
         print("s消息推送出错:", e)
 
-qbtr(url)
-trq(url1)
-trxs(url2)
-jpxs(url4)
-bxg(url3)
+
 TITLE = "同人小说"
 CONTENT = f'全本同人{qbt}\n同人圈{tr}\n同人小说{trx}\n精品小说{jpx}\n笔仙阁{bx}'
 pushplus(TITLE, CONTENT)
 server(TITLE, CONTENT)
-
-
