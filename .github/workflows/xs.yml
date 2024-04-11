@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: '1 21 * * *'
+    - cron: '1 10 * * *'
   watch:
     types: started
 
@@ -24,7 +24,7 @@ jobs:
         run: |
           pip install -r ./requirements.txt
   
-      - name: 21
+      - name: 运行
         run: |
           python3 xs.py
           
