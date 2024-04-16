@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime  
-lis = 'lis.json'
+lis = './lis.json'
 dk = 'dk.json'
 # 获取今天的日期  
 today = datetime.today()  
@@ -12,14 +12,14 @@ try:
     with open(lis, 'r') as f:  
         li = eval(f.read())  
 except FileNotFoundError:  
-    li = []
+    print('1')
 day2 = day - 9
 
 try:  
     with open(dk, 'r') as f:  
         du = eval(f.read())  
 except FileNotFoundError:  
-    du = []
+    print('2')
 day1 = day - 6
   
 def send_server_chan_notification(access_token, title, content):  
@@ -85,6 +85,6 @@ if __name__ == "__main__":
         del du[0]
         push_message(TITLE1, CONTENT1)
         send_server_chan_notification(ACCESS_TOKEN, TITLE1, CONTENT1)
-        with open(du, 'w') as f:  
+        with open(dk, 'w') as f:  
             f.write(str(du))
         
