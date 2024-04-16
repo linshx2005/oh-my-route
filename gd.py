@@ -73,18 +73,7 @@ if __name__ == "__main__":
     TITLE1 = "dk"  
     CONTENT = "vc\n6776513150\n6753671485"
     CONTENT1 = 'dk\n6776513150\n6753671485'
-    if day2 == li[0]:
-        li.append(day)
-        del li[0]
-        push_message(TITLE, CONTENT)
-        send_server_chan_notification(ACCESS_TOKEN, TITLE, CONTENT)
-        with open(lis, 'w') as f:  
-            f.write(str(li))       
-    if day1 == du[0]:
-        du.append(day)
-        del du[0]
-        push_message(TITLE1, CONTENT1)
-        send_server_chan_notification(ACCESS_TOKEN, TITLE1, CONTENT1)
-        with open(dk, 'w') as f:  
-            f.write(str(du))
-        
+    li.append(day)
+    del li[0]
+    with open(lis, 'w') as f:  
+        f.write(str(li))        
