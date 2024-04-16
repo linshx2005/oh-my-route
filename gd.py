@@ -14,13 +14,18 @@ try:
 except FileNotFoundError:  
     print('1')
 day2 = day - 9
-
+li.append(day)
+with open(lis, 'w') as f:  
+    f.write(str(li))
 try:  
     with open(dk, 'r') as f:  
         du = eval(f.read())  
 except FileNotFoundError:  
     print('2')
 day1 = day - 6
+du.append(day)
+with open(dk, 'w') as f:  
+    f.write(str(du))
   
 def send_server_chan_notification(access_token, title, content):  
     """  
