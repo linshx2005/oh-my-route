@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime  
-lis = './lis.json'
-dk = './dk.json'
+lis = 'lis.json'
+dk = 'dk.json'
 # 获取今天的日期  
 today = datetime.today()  
   
@@ -79,8 +79,8 @@ if __name__ == "__main__":
         push_message(TITLE, CONTENT)
         send_server_chan_notification(ACCESS_TOKEN, TITLE, CONTENT)
         with open(lis, 'w') as f:  
-            f.write(str(li))        
-    elif day1 == du[0]:
+            f.write(str(li))       
+    if day1 == du[0]:
         du.append(day)
         del du[0]
         push_message(TITLE1, CONTENT1)
