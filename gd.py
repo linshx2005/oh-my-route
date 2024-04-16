@@ -1,4 +1,26 @@
 import requests
+from datetime import datetime  
+lis = './lis.json'
+dk = './dk.json'
+# 获取今天的日期  
+today = datetime.today()  
+  
+# 获取今天是今年的第几天  
+day = today.timetuple().tm_yday  
+
+try:  
+    with open(lis, 'r') as f:  
+        li = eval(f.read())  
+except FileNotFoundError:  
+    li = []
+day2 = day - 9
+
+try:  
+    with open(dk, 'r') as f:  
+        du = eval(f.read())  
+except FileNotFoundError:  
+    du = []
+day1 = day - 6
   
 def send_server_chan_notification(access_token, title, content):  
     """  
@@ -47,7 +69,22 @@ def push_message(title, content):
 # 使用示例  
 if __name__ == "__main__":  
     ACCESS_TOKEN = "SCT242760TeNxiWHrdLtFYqmJkeQnqE2Xq"  
-    TITLE = "vc6776513150vc6753671485"  
-    CONTENT = "vc6776513150\nvc6753671485"
-    push_message(TITLE, CONTENT)
-    send_server_chan_notification(ACCESS_TOKEN, TITLE, CONTENT)
+    TITLE = "vc"
+    TITLE1 = "dk"  
+    CONTENT = "vc\n6776513150\n6753671485"
+    CONTENT1 = 'dk\n6776513150\n6753671485'
+    if day2 == li[0]:
+        li.append(day)
+        del li[0]
+        push_message(TITLE, CONTENT)
+        send_server_chan_notification(ACCESS_TOKEN, TITLE, CONTENT)
+        with open(lis, 'w') as f:  
+            f.write(str(li))        
+    elif day1 == du[0]:
+        du.append(day)
+        del du[0]
+        push_message(TITLE1, CONTENT1)
+        send_server_chan_notification(ACCESS_TOKEN, TITLE1, CONTENT1)
+        with open(du, 'w') as f:  
+            f.write(str(du))
+        
