@@ -46,7 +46,7 @@ def push_message(title, content):
         print("消息推送出错:", e)    
 # 使用示例  
 if __name__ == "__main__":  
-    ACCESS_TOKEN = "SCT227782TMxJlx5YE887DkDfBcQ93prou"  
+    ACCESS_TOKEN = "SCT242760TeNxiWHrdLtFYqmJkeQnqE2Xq"  
     TITLE = "vc"  
     CONTENT = "6776513150\n6753671485"
     push_message(TITLE, CONTENT)
